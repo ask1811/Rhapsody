@@ -3,8 +3,8 @@
   cursor: pointer;
   align-items: center;
   height: 40px;
-  color: grey;
-  transition: 200ms color ease-in;
+  color: rgb(201,137,137)
+  transition 200ms color ease-in;
 }
 
 .sidebarOption:hover {

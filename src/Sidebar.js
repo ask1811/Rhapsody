@@ -15,7 +15,7 @@ function Sidebar() {
     <div className="sidebar">
       <img
         className="sidebar__logo"
-        src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
+        src="https://im4.ezgif.com/tmp/ezgif-4-35bd28a30c.webp"
         alt=""
       />
       <SidebarOption Icon={HomeIcon} option="Home" />
