@@ -47,14 +47,14 @@ function App() {
       s.getMe().then((user) => {
         dispatch({
           type: "SET_USER",
-          user,
+          user:user
         });
       });
 
       s.getUserPlaylists().then((playlists) => {
         dispatch({
           type: "SET_PLAYLISTS",
-          playlists,
+          playlists:playlists
         });
       });
     }

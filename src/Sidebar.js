@@ -15,7 +15,7 @@ function Sidebar() {
     <div className="sidebar">
       <img
         className="sidebar__logo"
-        src="https://im4.ezgif.com/tmp/ezgif-4-35bd28a30c.webp"
+        src="rhapsodylogo.svg"
         alt=""
       />
       <SidebarOption Icon={HomeIcon} option="Home" />
