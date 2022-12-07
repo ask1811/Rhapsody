@@ -6,6 +6,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
 import { getTokenFromResponse } from "./spotify";
 import { useStateValue } from "./StateProvider";
+import rhapsodylogo from './rhapsodylogo.jpeg'
 
 function Sidebar() {
   const [{ playlists }, dispatch] = useStateValue();
@@ -15,7 +16,7 @@ function Sidebar() {
     <div className="sidebar">
       <img
         className="sidebar__logo"
-        src="rhapsodylogo.svg"
+        src={rhapsodylogo}
         alt=""
       />
       <SidebarOption Icon={HomeIcon} option="Home" />
